@@ -10,7 +10,7 @@ def afficher_coordonnees(event, x, y, flags, param):
 
 # Charger une image
 
-chemin_image = r"" # Remplacez par le chemin de votre image
+chemin_image = r"C:\Users\maeva_hkbgytx\OneDrive\Images\JPM_PR_visual_mid.png" # Remplacez par le chemin de votre image
 img = cv2.imread(chemin_image)
 
 if img is None:
